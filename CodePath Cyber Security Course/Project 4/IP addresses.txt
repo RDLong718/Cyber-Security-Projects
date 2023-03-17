@@ -1,0 +1,16 @@
+docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:5cff:fe45:dbbe  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:5c:45:db:be  txqueuelen 0  (Ethernet)
+        RX packets 197  bytes 596170 (582.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 248  bytes 49951 (48.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0      Link encap:Ethernet  HWaddr 02:42:ac:11:00:03
+          inet addr:172.17.0.3  Bcast:172.17.255.255  Mask:255.255.0.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:32 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:47 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:2830 (2.7 KB)  TX bytes:5142 (5.0 KB)
